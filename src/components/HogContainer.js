@@ -4,7 +4,7 @@ import Hog from './Hog'
 function HogContainer(props) {
 
     let arrayOfComponents = props.hogs.map((singleHogObj) => {
-        return <Hog key={singleHogObj.id} hog={singleHogObj}/>
+        return <Hog key={singleHogObj.name} hog={singleHogObj}/>
     })
 
     return(
